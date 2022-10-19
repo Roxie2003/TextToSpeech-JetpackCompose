@@ -17,7 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.gescoe.texttospeech_jetpackcompose.ui.theme.TextToSpeech_JetpackComposeTheme
+import com.gescoe.texttospeech_jetpackcompose.ui.theme.TextToSpeechJetpackComposeTheme
 import kotlinx.coroutines.launch
 import java.util.*
 
@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            TextToSpeech_JetpackComposeTheme() {
+            TextToSpeechJetpackComposeTheme() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background

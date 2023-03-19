@@ -20,6 +20,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Installation ⚙
 
 - Download or Clone Repository
+- Open in android studio
 - build and run the app ▶
 
 ## Technologies
